@@ -8,11 +8,11 @@ clear all
 set more off
 
 // SET THIS TO YOUR PROJECT ROOT
-global root "/Users/lee/Library/CloudStorage/Dropbox-CGDEducation/Lee Crawfurd/USAID Impacts"
+global root "/Users/lee/Library/CloudStorage/Dropbox-CGDEducation/Lee Crawfurd/blogs/2026-02-usaid-conflict"
 
-global input   "$root/Input"
-global output  "$root/Output"
-global figures "$root/Figures"
+global input   "$root/data/input"
+global output  "$root/data"
+global figures "$root/figures"
 cap mkdir "$output"
 cap mkdir "$figures"
 
