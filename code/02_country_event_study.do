@@ -1,7 +1,7 @@
 /*
 02_country_event_study.do
-Country-level event study coefplots (re-centred: pre-period mean = 0).
-Produces: event_study_armed.png, event_study_all.png
+Country-level event study coefplot (re-centred: pre-period mean = 0).
+Produces: event_study_armed.png
 Requires: $output/acled_conflict_panel.dta
 */
 
@@ -104,8 +104,4 @@ recentred_plot, depvar(ihs_armed) etvars(`etvars') color(cranberry) ///
 	title("Armed Conflict — Country-Level Event Study") ///
 	filename(event_study_armed.png)
 
-recentred_plot, depvar(ihs_all) etvars(`etvars') color(navy) ///
-	title("All Conflict — Country-Level Event Study") ///
-	filename(event_study_all.png)
-
-di _newline "Done — country event study plots."
+di _newline "Done — event_study_armed.png"
