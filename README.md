@@ -1,1 +1,1 @@
-This page provides the code for the figures in the CGD blog "US Aid Cuts Fueled Conflict in Africa". The needed raw data can be downloaded from GODAD and ACLED. 
+This page provides the code for the figures in the CGD blog &ldquo;[US Aid Cuts Fueled Conflict in Africa](https://www.cgdev.org/blog/us-aid-cuts-fueled-conflict-africa).&rdquo; The needed raw data can be downloaded from GODAD and ACLED. 
